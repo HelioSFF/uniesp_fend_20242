@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+/* cabeçario e menu*/
 #header{
     background-color: #21272B;
     display: flex;
@@ -46,12 +47,13 @@ h1{
 
 }
 
-#header a, ul, p{
+#header a{
     color:#FFFFFF;
     list-style: none;
     text-decoration: none;
     
 }
+
 
 #header a:hover{
     color:#1BB4E8;
@@ -71,6 +73,8 @@ h1{
     font-weight: 400;
     line-height: 20px;
     font-size:14px;
+    list-style: none;
+    text-decoration: none;
 
 }
 
@@ -80,4 +84,104 @@ h1{
 
 body{
     margin: 0px;
+}
+/* div da imagem do body */
+
+#image-body{
+    background-image: url(/uniesp_fend_20242/Projeto-AluguelIates/imagens/barcoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    height: 700px;
+}
+
+#contact-card{
+    background-color: black;
+    opacity: 0.8;
+    color: #FFFFFF;
+    height: 250px;
+    width: 450px;
+    display: flex;
+    align-self:last baseline;
+
+} 
+
+
+#container-destino-frota{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/* Div do "Destinos */
+.destinos{
+    background-color: #FFFFFF;
+    width: 460px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.destinos h2{
+    background-color: #1BB4E8;
+    color:#FFFFFF;
+    height:32px;
+    margin-top: 0;
+    
+}
+
+.destinos p{
+    margin-bottom: 40px;
+}
+
+.destinos img{
+    align-content: center;
+}
+
+/* Div da "Nossa frota*/
+.frota{
+    background-color: #FFFFFF;
+    width: 430px;
+    height: 450px;
+}
+
+.nossafrota{
+background-color: #C6B07F;
+color: #FFFFFF;
+width: 430px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+}
+
+.nossafrota p{
+    color: black;
+}
+
+.nossafrota__topico{
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+
+.nossafrota__imagens{
+    display: grid;
+    grid-template-columns: repeat(2, 203px);
+    align-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    column-gap: 10px;
+}
+
+/*footer*/
+#footer{
+    background-color: lightgrey;
+    opacity: 0.8;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    padding: 10px 4px 6px 10px;
+    margin: 0;
 }
