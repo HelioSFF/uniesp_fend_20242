@@ -88,7 +88,7 @@ body{
 /* div da imagem do body */
 
 #image-body{
-    background-image: url(/uniesp_fend_20242/Projeto-AluguelIates/imagens/barcoprincipal.jpg);
+    background-image: url(/Projeto-AluguelIates/imagens/barcoprincipal.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -97,16 +97,45 @@ body{
 }
 
 #contact-card{
-    background-color: black;
-    opacity: 0.8;
+    background-color: #1A3243;
+    opacity: 0.9;
     color: #FFFFFF;
     height: 250px;
     width: 450px;
-    display: flex;
-    align-self:last baseline;
+    position: relative;
+    left: 900px;
+    top: 400px;
+    align-content: center;
 
 } 
 
+#frase{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contact-card #contato img{
+    width: 40px;
+    height: 50px;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+#contato p{
+    padding-left: 15px;
+    font-size: 20px;
+
+}
+
+#contato span{
+    color: #C6B07F
+}
 
 #container-destino-frota{
     display:flex;
