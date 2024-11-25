@@ -88,7 +88,7 @@ body{
 /* div da imagem do body */
 
 #image-body{
-    background-image: url(/Projeto-AluguelIates/imagens/barcoprincipal.jpg);
+    background-image: url(/imagens/barcoprincipal.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
