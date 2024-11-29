@@ -88,7 +88,7 @@ body{
 /* div da imagem do body */
 
 #image-body{
-    background-image: url(/uniesp_fend_20242/Projeto-AluguelIates/imagens/barcoprincipal.jpg);
+    background-image: url("https://i.imgur.com/ICPyBy9.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
